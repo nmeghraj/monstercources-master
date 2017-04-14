@@ -1,2 +1,2 @@
 # monstercources-master
-Licence
+monstercourses® is a registered group.
