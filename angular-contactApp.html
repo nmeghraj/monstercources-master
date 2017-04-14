@@ -28,11 +28,12 @@
         </thead>
         <tbody>
             <tr ng-repeat="contact in contacts">
-                <td>{{ contact.name }}</td>
-                <td>{{ contact.email }}</td>
-                <td>{{ contact.phone }}</td>
-                <td> <a href="javascript:void(0)" ng-click="edit(contact.id)">edit</a> | <a href="javascript:void(0)" ng-click="delete(contact.id)">delete</a>
-
+                <td class="ng-binding">{{contact.name}}</td>
+    		<td class="ng-binding">{{contact.email}}</td>
+    		<td class="ng-binding">{{contact.phone}}</td>
+                <td> 
+			<a href="javascript:void(0)" ng-click="edit(contact.id)">edit</a> |
+			<a href="javascript:void(0)" ng-click="delete(contact.id)">delete</a>
                 </td>
             </tr>
         </tbody>
